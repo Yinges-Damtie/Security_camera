@@ -114,7 +114,7 @@ const Security= () => {
     const formData = new FormData();
     formData.append("video", videoBlob);
     formData.append("screenshot", screenshotDataUrl);
-
+//
     axios
       .post("/api/upload-data", formData)
       .then((response) => {
