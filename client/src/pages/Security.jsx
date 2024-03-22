@@ -106,7 +106,7 @@ const Security= () => {
 
     // Convert canvas image to base64 data URL
     const screenshotDataUrl = canvasElement.toDataURL();
-// 
+
     // Create a blob from the video stream
     const videoBlob = new Blob([videoStream], { type: 'video/webm' });
 
