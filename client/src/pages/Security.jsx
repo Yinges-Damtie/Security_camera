@@ -2,7 +2,7 @@ import  { useEffect, useRef, useState } from 'react';
 import * as tf from '@tensorflow/tfjs';
 import * as tmPose from '@teachablemachine/pose';
 import axios from 'axios';
-
+// 
 const Security= () => {
   const canvasRef = useRef(null);
   const labelContainerRef = useRef(null);
